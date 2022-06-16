@@ -10,9 +10,6 @@ use PDOException;
  * PDOx - Useful Query Builder & PDO Class
  *
  * @package  Pdox saasdb
- * @author   izni burak demirtaş (@izniburak) <info@burakdemirtas.org>
- * @url      <https://github.com/izniburak/PDOx>
- * @license  The MIT License (MIT) - <http://opensource.org/licenses/MIT>
  */
 class saasdb implements saasdbInterface
 {
@@ -844,6 +841,22 @@ class saasdb implements saasdbInterface
         $query = $this->getAll(true);
         return $type === true ? $query : $this->query($query, false, $type, $argument);
     }
+    
+    
+    public function result($table)
+    {
+        $this->table($table);
+        $query = $this->getAll(true);
+        return $type === true ? $query : $this->query($query, false, $type, $argument);
+    }
+    
+     public function result($table)
+    {
+        $this->table($table);
+        $query = $this->getAll(true);
+        return $type === true ? $query : $this->query($query, false, $type, $argument);
+    }
+    
 
     /**
      * @param bool|string $type
