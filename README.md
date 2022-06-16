@@ -2,10 +2,10 @@
 
 Fast, efficient and useful Query Builder and PDO Class for #PHP
 
-[![Total Downloads](https://poser.pugx.org/klasvento/saas-db-pdo/d/total.svg)](https://packagist.org/packages/klasvento/saas-db-pdo)
-[![Latest Stable Version](https://poser.pugx.org/klasvento/saas-db-pdo/v/stable.svg)](https://packagist.org/packages/klasvento/saas-db-pdo)
-[![Latest Unstable Version](https://poser.pugx.org/klasvento/saas-db-pdo/v/unstable.svg)](https://packagist.org/packages/klasvento/saas-db-pdo)
-[![License](https://poser.pugx.org/klasvento/saas-db-pdo/license.svg)](https://packagist.org/packages/klasvento/saas-db-pdo)
+[![Total Downloads](https://poser.pugx.org/kolayentegre/saas-db-pdo/d/total.svg)](https://packagist.org/packages/kolayentegre/saas-db-pdo)
+[![Latest Stable Version](https://poser.pugx.org/kolayentegre/saas-db-pdo/v/stable.svg)](https://packagist.org/packages/kolayentegre/saas-db-pdo)
+[![Latest Unstable Version](https://poser.pugx.org/kolayentegre/saas-db-pdo/v/unstable.svg)](https://packagist.org/packages/kolayentegre/saas-db-pdo)
+[![License](https://poser.pugx.org/kolayentegre/saas-db-pdo/license.svg)](https://packagist.org/packages/kolayentegre/saas-db-pdo)
 
 ## Install
 
@@ -13,7 +13,7 @@ composer.json file:
 ```json
 {
     "require": {
-        "klasvento/saas-db-pdo": "^1"
+        "kolayentegre/saas-db-pdo": "^1"
     }
 }
 ```
@@ -25,7 +25,7 @@ $ composer install
 OR run the following command directly.
 
 ```
-$ composer require klasvento/saas-db-pdo
+$ composer require kolayentegre/saas-db-pdo
 ```
 
 ## Example Usage
@@ -64,7 +64,7 @@ Documentation page: [PDOx Docs][doc-url]
 
 ## Contributing
 
-1. Fork it ( https://github.com/klasvento/pdo-saas/fork )
+1. Fork it ( https://github.com/kolayentegre/pdo-saas/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
