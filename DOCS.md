@@ -5,7 +5,7 @@
 ```json
 {
     "require": {
-        "izniburak/pdox": "^1"
+        "klasvento/saas-db-pdo": "^1"
     }
 }
 ```
@@ -17,7 +17,7 @@ $ composer install
 OR run the following command directly.
 
 ```
-$ composer require izniburak/pdox
+$ composer require klasvento/saas-db-pdo
 ```
 
 ## Quick Usage
