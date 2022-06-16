@@ -1,4 +1,4 @@
-## PDOx
+## saasdb
 ```
  _____  _____   ____       
  |  __ \|  __ \ / __ \      
@@ -50,7 +50,7 @@ $config = [
 	'prefix'	 => ''
 ];
 
-$db = new \Buki\Pdox($config);
+$db = new \klas\saasdb($config);
 
 $records = $db->table('users')
 		->select('id, name, surname, age')
