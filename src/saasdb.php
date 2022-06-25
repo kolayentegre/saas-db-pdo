@@ -11,7 +11,7 @@ use PDOException;
  *
  * @package  Pdox saasdb
  */
-class saasdb implements saasdbInterface
+class saasdb implements PdoxInterface
 {
     /**
      * PDOx Version
@@ -829,6 +829,8 @@ class saasdb implements saasdbInterface
         throw new PDOException($this->error . '. (' . $this->query . ')');
     }
 
+  
+  
     /**
      * @param string|bool $type
      * @param string|null $argument
@@ -841,23 +843,15 @@ class saasdb implements saasdbInterface
         $query = $this->getAll(true);
         return $type === true ? $query : $this->query($query, false, $type, $argument);
     }
-    
-    
-    public function result($table)
-    {
-        $this->table($table);
-        $query = $this->getAll(true);
-        return $type === true ? $query : $this->query($query, false, $type, $argument);
-    }
-    
-     public function result($table)
-    {
-        $this->table($table);
-        $query = $this->getAll(true);
-        return $type === true ? $query : $this->query($query, false, $type, $argument);
-    }
-    
 
+     public function result($tableName = null)
+    {
+        $this->table($tableName);
+        $query = $this->getAll(true);
+       
+        return $this->query($query, false, $type, $argument);
+    }
+  
     /**
      * @param bool|string $type
      * @param string|null $argument
