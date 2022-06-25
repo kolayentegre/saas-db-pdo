@@ -1,11 +1,6 @@
 ## saasdb
 
-Fast, efficient and useful Query Builder and PDO Class for #PHP
-
-[![Total Downloads](https://poser.pugx.org/kolayentegre/saas-db-pdo/d/total.svg)](https://packagist.org/packages/kolayentegre/saas-db-pdo)
-[![Latest Stable Version](https://poser.pugx.org/kolayentegre/saas-db-pdo/v/stable.svg)](https://packagist.org/packages/kolayentegre/saas-db-pdo)
-[![Latest Unstable Version](https://poser.pugx.org/kolayentegre/saas-db-pdo/v/unstable.svg)](https://packagist.org/packages/kolayentegre/saas-db-pdo)
-[![License](https://poser.pugx.org/kolayentegre/saas-db-pdo/license.svg)](https://packagist.org/packages/kolayentegre/saas-db-pdo)
+Saas proje geliştirmek için veritabanı sorgularında tenant ıd izolasyonunu kolaylaştıran bir sınıfdır.
 
 ## Install
 
