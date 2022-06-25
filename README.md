@@ -70,5 +70,5 @@ Documentation page: [PDOx Docs][doc-url]
 - [Others](https://github.com/klasvento/pdo-saas/graphs/contributors)
 
 [mit-url]: http://opensource.org/licenses/MIT
-[doc-url]: https://github.com/klasvento/pdo-saas/blob/master/DOCS.md
+[doc-url]: https://github.com/kolayentegre/saas-db-pdo/blob/main/DOCS.md
 
