@@ -124,6 +124,7 @@ $db = new \Buki\Pdox($config);
  * [error](#error)
  * [queryCount](#querycount)
  * [getQuery](#getquery)
+ * [result](#result)
 
 ## Methods
 
@@ -591,5 +592,14 @@ $db->queryCount();
 $db->getQuery();
 # Last SQL Query.
 ```
+
+### result
+```php
+$db->result();
+# Last SQL Query.
+```
+
+
+
 
 [support-url]: https://github.com/izniburak/PDOx#support
