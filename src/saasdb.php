@@ -11,7 +11,7 @@ use PDOException;
  *
  * @package  Pdox saasdb
  */
-class saasdb implements PdoxInterface
+class saasdb implements saasdbInterface
 {
     /**
      * PDOx Version
