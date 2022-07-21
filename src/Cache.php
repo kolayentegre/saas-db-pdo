@@ -1,13 +1,4 @@
 <?php
-/**
- * PDOx - Useful Query Builder & PDO Class
- *
- * @class    Cache
- * @author   izni burak demirtaş (@izniburak) <info@burakdemirtas.org>
- * @web      <http://burakdemirtas.org>
- * @url      <https://github.com/izniburak/PDOx>
- * @license  The MIT License (MIT) - <http://opensource.org/licenses/MIT>
- */
 
 namespace klas;
 
