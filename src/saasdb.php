@@ -24,6 +24,7 @@ class saasdb implements saasdbInterface
      * @var PDO|null
      */
     public $pdo = null;
+    public $saasMode = false;
 
     /**
      * @var mixed Query variables
